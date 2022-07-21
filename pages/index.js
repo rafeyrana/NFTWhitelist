@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Image from 'next/image'
 import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
@@ -145,7 +146,7 @@ export default function Home() {
       <div className={styles.main}>
         
          <div>
-          <img className={styles.image} src="./KKLogo.png" />
+          <Image className={styles.image} src="./KKLogo.png" />
         </div>
         <div>
           <h1 className={styles.title}>WELCOME TO KHOKA KITTIES!!</h1>
@@ -154,7 +155,7 @@ export default function Home() {
           </div>
           <div className={styles.description}>
          
-            {numberOfWhitelisted} people have already joined the Whitelist, Don't miss out!!
+            {numberOfWhitelisted} people have already joined the Whitelist, Do not miss out!!
           </div>
           {renderButton()}
         </div>
