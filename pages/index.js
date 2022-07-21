@@ -141,16 +141,7 @@ export default function Home() {
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div >
-        <ul className={styles.nav}>
-          <li> <a href="/"><b>Roadmap</b> </a></li>
-
-          <li> <a href="/"> <b>Blog</b></a></li>
-
-
-        </ul>
-       
-      </div>
+   
       <div className={styles.main}>
         
          <div>
