@@ -1,0 +1,105 @@
+.main {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    color: blueviolet
+  }
+  
+  .footer {
+    display:flex;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+    color: mediumpurple
+  }
+  
+  .image {
+    width: 70%;
+    height: 50%;
+    margin-left: 20%;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .description {
+    line-height: 1;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+  .nav
+  {
+   
+    list-style-type: none;
+    margin-left:45%;
+    padding: 0;
+  }
+  .nav>li{
+    display:inline;
+  }
+  .nav>li>a
+  {
+    color: mediumpurple;
+    font-family: "Courier New", Courier, monospace;
+    font-size:1.4rem;
+  }
+  .button {
+    border-radius: 4px;
+    margin-left: 5rem;
+    background-color: mediumpurple;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 2%;
+  }
+  @media (max-width: 1000px) {
+    .main {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .image {
+      width: 70%;
+      height: 50%;
+      margin-left: 15%;
+    }
+    .nav
+  {
+   
+    list-style-type: none;
+    margin-left:30%;
+    padding: 0;
+  }
+  .nav>li{
+    display:inline;
+  }
+  .nav>li>a
+  {
+    color: mediumpurple;
+    font-family: "Courier New", Courier, monospace;
+    font-size:1.4rem;
+  }
+  .title {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    padding-left: 30px;
+  }
+  
+  .description {
+    line-height: 1;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    padding-left: 30px;
+  }
+
+  }
