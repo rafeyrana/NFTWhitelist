@@ -1,11 +1,13 @@
-{
+{ "homepage": "hhtp://rafeyrana.gihub.io/NFTWhitelist",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "next build",
     "lint": "next lint"
   },
   "dependencies": {
