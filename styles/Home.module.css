@@ -1,20 +1,22 @@
 .main {
-    min-height: 90vh;
+    min-height: 93vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-family: "Courier New", Courier, monospace;
-    color: blueviolet
+    color: blueviolet;
+    background-color: lavender;
   }
   
   .footer {
     display:flex;
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     border-top: 1px solid #eaeaea;
     justify-content: center;
     align-items: center;
-    color: mediumpurple
+    color: white;
+    background-color: mediumpurple;
   }
   
   .image {
@@ -51,7 +53,7 @@
   }
   .button {
     border-radius: 4px;
-    margin-left: 5rem;
+    margin-left: 4.7rem;
     background-color: mediumpurple;
     border: none;
     color: #ffffff;
@@ -67,6 +69,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      color: blueviolet;
+      background-color: lavender;
     }
     .image {
       width: 70%;
@@ -90,16 +94,39 @@
     font-size:1.4rem;
   }
   .title {
-    font-size: 1.3rem;
-    margin: 20px 0;
-    padding-left: 30px;
+    font-size: 1.4rem;
+    margin: 10px 0;
+    padding-left: 20px;
+    text-align: center;
   }
   
   .description {
     line-height: 1;
     margin: 2rem 0;
-    font-size: 1.5rem;
-    padding-left: 30px;
+    font-size: 1.3rem;
+   
+    text-align: center;
+  }
+  .footer {
+    display:flex;
+    padding: 1.2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: mediumpurple;
+  }
+  .button {
+    border-radius: 4px;
+    margin-left: 5.5rem;
+    background-color: mediumpurple;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 2%;
   }
 
   }

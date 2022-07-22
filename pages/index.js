@@ -21,8 +21,8 @@ export default function Home() {
 
     const { chainId } = await web3Provider.getNetwork();
     if (chainId !== 4) {
-      window.alert("Change the network to Rinkeby");
-      throw new Error("Change network to Rinkeby");
+      window.alert("Please connect your physical key");
+      throw new Error("Please connect your physical key");
     }
 
     if (needSigner) {
@@ -146,7 +146,7 @@ export default function Home() {
       <div className={styles.main}>
         
          <div>
-          <Image className={styles.image} src="./KKLogo.png" />
+          <img className={styles.image} src="./KKLogo.png" />
         </div>
         <div>
           <h1 className={styles.title}>WELCOME TO KHOKA KITTIES!!</h1>
@@ -155,7 +155,7 @@ export default function Home() {
           </div>
           <div className={styles.description}>
          
-            {numberOfWhitelisted} people have already joined the Whitelist, Do not miss out!!
+            {numberOfWhitelisted} PEOPLE HAVE ALREADY JOINED THE WHITELIST, DO NOT MISS OUT!!
           </div>
           {renderButton()}
         </div>
@@ -163,7 +163,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-       Rafey Rana 
+       RAFEY RANA
       </footer>
     </div>
   );
