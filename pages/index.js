@@ -11,7 +11,7 @@ export default function Home() {
   const [joinedWhitelist, setJoinedWhitelist] = useState(false);
   const [loading, setLoading] = useState(false);
   const [numberOfWhitelisted, setNumberOfWhitelisted] = useState(0);
-  const [haveORhave, sethaveORhave] = useState("have")
+
   const web3ModalRef = useRef();
 
  
