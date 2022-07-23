@@ -21,8 +21,8 @@ export default function Home() {
 
     const { chainId } = await web3Provider.getNetwork();
     if (chainId !== 4) {
-      window.alert("Please connect your physical key");
-      throw new Error("Please connect your physical key");
+      window.alert("Please connect to Rinkeby");
+      throw new Error("Please connect to Rinkeby");
     }
 
     if (needSigner) {
